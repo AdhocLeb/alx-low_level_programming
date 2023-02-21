@@ -1,20 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 -Prints the lowercase alphabet ten times
+ * print_alphabet_x10 - print ten times alphabet in lowercase
  */
 
 void print_alphabet_x10(void)
 {
-	int i, j;
+	int coubt = 0;
+	char l;
 
-	for (i = 0; i < 10; i++)
+	while (count++ <= 9)
 	{
-		for (j = 0; j < 26; j++)
-	{
-		_putchar('a' + j);
+		for (l = 'a'; l <= 'z' ; l++)
+			_putchar(l);
+		_putchar('/n);
 	}
-		if (i != 9)
-			_putchar('\n');
-	}
-}

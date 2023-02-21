@@ -7,11 +7,11 @@
 void print_alphabet_x10(void)
 {
 	int coubt = 0;
-	char l;
+	char letter;
 
 	while (count++ <= 9)
 	{
-		for (l = 'a'; l <= 'z' ; l++)
-			_putchar(l);
-		_putchar('/n);
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+		_putchar('/n');
 	}

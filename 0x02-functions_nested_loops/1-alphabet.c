@@ -1,18 +1,17 @@
 #include "main.h"
 /**
- * main - program that prints _putchar, followed by a new line.
+ * main - Prints out lowercase alphabets
  * Return: 0 Always
  */
 int main(void)
 {
-	int in = 97;
+	char c = 'a';
 
-	while (in <= 122)
+	while (c <= 'z')
 	{
-		putchar(in);
-		in++;
+		_putchar(c);
+		c++;
 	}
-	putchar('\n');
-
+	_putchar('\n');
 return (0);
 }

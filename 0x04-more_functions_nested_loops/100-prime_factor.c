@@ -1,27 +1,22 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the largest prime factor.
- *
- * Return: Always 0.
+ * main - prints the largest prime factor of 612852475143
+ * Prince Solomon
+ * Return: always 0
  */
+
 int main(void)
 {
-    long int n, fp;
+	unsigned long int i, n = 612852485143;
 
-    n = 612852475143;
-
-    for (fp = 2; fp <= n; fp++)
-    {
-        if (n % fp == 0)
-        {
-            n /= fp;
-            fp--;
-        }
-    }
-
-    printf("%ld\n", fp);
-
-    return (0);
+	for (i = 3; i < 782849; i = i + 2)
+	{
+		while ((n % i == 0) && (n != i))
+			n = n / i;
+	}
+	printf("%lu\n", n);
+	return (0);
 }
 

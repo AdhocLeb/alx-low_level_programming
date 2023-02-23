@@ -4,11 +4,12 @@
 
 /**
  * print_numbers - print digits 0123456789
- * 
+ *
  * Return: void
  */
 
 void print_numbers(void)
+
 {
 	char c;
 

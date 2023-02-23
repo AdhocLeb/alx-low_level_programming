@@ -3,7 +3,7 @@
 /**
  * _isdigit - write a function that checks for a digits 0 through 9
  * @c: characters to check
- * 
+ *
  * Return: 0 or 1
  */
 

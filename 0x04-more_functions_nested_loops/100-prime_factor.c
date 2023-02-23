@@ -1,22 +1,25 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - prints the largest prime factor of 612852475143
- * Prince Solomon
- * Return: always 0
+ * main -  checks for checks for a digit (0 through 9).
+ *
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	unsigned long int i, n = 612852485143;
+	long x, y;
 
-	for (i = 3; i < 782849; i = i + 2)
+	x = 612852475143;
+
+	for (y = 2; x > y; y++)
 	{
-		while ((n % i == 0) && (n != i))
-			n = n / i;
+		while (x % y == 0)
+		{
+			x = x / y;
+		}
 	}
-	printf("%lu\n", n);
+	printf("%lu", y);
+	putchar('\n');
 	return (0);
 }
 

@@ -1,7 +1,8 @@
+#include "main.h"
 /**
- * print_diagsums - prints the sum of the diagonals of a square matrix of integers
- * @a: pointer to the first element of the matrix
- * @size: size of the matrix (number of rows or columns)
+ * print_diagsums - prints the sums of the two diagonals of a square matrix
+ * @a: pointer to start of matrix
+ * @size: width of matrix column
  *
  * Return: void
  */

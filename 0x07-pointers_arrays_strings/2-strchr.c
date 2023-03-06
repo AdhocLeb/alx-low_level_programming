@@ -3,9 +3,9 @@
 /**
  * _strchr - locates a character in a string
  *
- * @c: occurrence of the character
+ * @c: Character to search for.
  *
- * @s: in the string
+ * @s: pointer to the string
  *
  * Return: a pointer to the first occurrence of the character
  */

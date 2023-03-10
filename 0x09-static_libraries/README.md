@@ -17,6 +17,3 @@ What you should learn from this project:
 
 
 ---
-
-## Author
-* **Prince Solomon** - [princexz](https://github.com/princexz)
